@@ -47,7 +47,7 @@ background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82
 }
 .title_text {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
 }
 .sliding_menu {
     position: fixed;
