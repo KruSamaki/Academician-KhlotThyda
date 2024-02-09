@@ -18,7 +18,7 @@
     font-family: KhmerFont;
 }
 body{
-    background-image: url('img/background.jpg');
+    background-image: url('img/buddha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,6 +28,7 @@ body{
 @media (max-width: 767px) {
     body {
       background-attachment:fixed;
+      background-image: url('img/background.jpg');
     }
   }
 .icon{
