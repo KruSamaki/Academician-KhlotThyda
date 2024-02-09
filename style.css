@@ -17,6 +17,19 @@
     text-align: center;
     font-family: KhmerFont;
 }
+body{
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    body {
+      background-attachment:fixed;
+    }
+  }
 .icon{
     font-family: KhmerTitle;
     font-size: 1px;
@@ -27,8 +40,8 @@
 .title_bar {
     /* background-color: #EA7B5F;
     box-shadow: 0px 5px  #694238(128, 128, 128, 0.478); */
-    background: rgb(100,161,255);
-background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82%, rgba(139,252,254,1) 99%);
+    background: rgb(26,50,54);
+    background: linear-gradient(90deg, rgba(26,50,54,1) 0%, rgba(42,81,80,1) 35%, rgba(74,103,75,1) 100%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,9 +173,6 @@ background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82
     width: 100%;
     height: auto;
     padding: 5px;
-    /* background-color: #EA7B5F; */
-    background: rgb(100,161,255);
-/* background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82%, rgba(139,252,254,1) 99%); */
     transition: opacity 0.3s ease-in-out;
     opacity: 1;
 }
@@ -172,11 +182,20 @@ background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82
     width: 100%;
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     bottom: 10px;
     left: 10px;
     right: 10px;
     z-index: 2; 
+}
+.book-title:hover{
+   color:white;
+   text-shadow: 1px 1px yellow;
+   transition: opacity 0.3s ease-in-out;
+   text-decoration: dotted;
+}
+hr{
+    color: gray;
 }
 
 @media only screen and (min-width: 600px) {
@@ -245,11 +264,11 @@ background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82
   /* Footer */
   footer {
     font-family: KhmerFont;
-    background: rgb(100,161,255);
-background: linear-gradient(90deg, rgba(100,161,255,1) 31%, rgba(0,212,255,1) 82%, rgba(139,252,254,1) 99%);
+    background: rgb(26,50,54);
+    background: linear-gradient(90deg, rgba(26,50,54,1) 0%, rgba(42,81,80,1) 35%, rgba(74,103,75,1) 100%);
     padding: 20px;
     color: white;
-    box-shadow: 0px -6px rgba(237, 117, 117, 0.389);
+    box-shadow: 0px -3px rgba(81, 78, 78, 0.389);
   }
   
   .footer-container {
